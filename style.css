@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .karkas {
     max-width: 1200px;
-    min-width: 980px;
+    min-width: 200px;
     margin: 0 auto;
 }
 
@@ -78,6 +78,8 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     color: #413f40;
     padding: 5px 20px;
+    display: block;
+    border: 1px solid #e8e7e3;
 }
 
 .menu ul li a:hover {
@@ -89,6 +91,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     border-radius: 5px;
     border: 1px solid #c84502;
+}
+
+.menu a#pull  {
+    display: none;
 }
 
 .content-main {
@@ -326,4 +332,547 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
+@media only screen and (min-width: 769px) and (max-width: 800px) {
+    .service {
+        float: left;
+        width: 50%;
+    }
+
+    .work-with-us h2 {
+        float: none;
+        width: 100%;
+        font-size: 18px;
+        color: #706d6a;
+        line-height: 1.6;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .work-with-us a {
+        float: none;
+    }
+    
+    .work-with-us a img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .service {
+        float: left;
+        width: 50%;
+    }
+
+    .work-with-us h2 {
+        float: none;
+        width: 100%;
+        font-size: 18px;
+        color: #706d6a;
+        line-height: 1.6;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .work-with-us a {
+        float: none;
+    }
+    
+    .work-with-us a img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .head {
+        padding: 10px 30px 30px 0;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .header-logo {
+        float: none;
+        margin: 25px auto 0 auto;
+        display: block;
+    }
+    
+    .head h1 {
+        float: none;
+        font-size: 15px;
+        color: #939393;
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+    
+    .head p {
+        float: none;
+        overflow: hidden;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+    
+    .head p a {
+        float: left;
+        margin-left: 10px;      
+    }
+
+    .bottom-content-left {
+        float: none;
+        width: 100%;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+    .bottom-content-right {
+        float: none;
+        width: 100%;
+    }
+
+    .news-block {
+        overflow: hidden;
+        margin-bottom: 20px;
+        float: left;
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .menu a#pull  {
+        display: block;
+        font-size: 14px;
+        font-weight: 700;
+        color: #333;
+        text-decoration: none;
+        padding: 10px 3%;
+        width: 94%;
+        position: relative;
+    }
+
+    .menu a#pull:after {
+        content: "";
+        background-image: url(./images/icon-menu.png);
+        background-repeat: no-repeat;
+        width: 12px;
+        height: 13px;   
+        display: inline-block;
+        position: absolute;
+        top: 12px;
+        right: 3%;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .slogan {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .service {
+        width: 50%;
+    }
+
+    .work-with-us h2 {
+        float: none;
+        width: 100%;
+        font-size: 18px;
+        color: #706d6a;
+        line-height: 1.6;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .work-with-us a {
+        float: none;
+    }
+    
+    .work-with-us a img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .head {
+        padding: 10px 30px 30px 0;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .header-logo {
+        float: none;
+        margin: 25px auto 0 auto;
+        display: block;
+    }
+    
+    .head h1 {
+        float: none;
+        font-size: 15px;
+        color: #939393;
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+    
+    .head p {
+        float: none;
+        overflow: hidden;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+    
+    .head p a {
+        float: left;
+        margin-left: 10px;      
+    }
+
+    .bottom-content-left {
+        float: none;
+        width: 100%;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+    .bottom-content-right {
+        float: none;
+        width: 100%;
+    }
+
+    .news-block {
+        overflow: hidden;
+        margin-bottom: 20px;
+        float: left;
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .menu a#pull  {
+        display: block;
+        font-size: 14px;
+        font-weight: 700;
+        color: #333;
+        text-decoration: none;
+        padding: 10px 3%;
+        width: 94%;
+        position: relative;
+    }
+
+    .menu a#pull:after {
+        content: "";
+        background-image: url(./images/icon-menu.png);
+        background-repeat: no-repeat;
+        width: 12px;
+        height: 13px;   
+        display: inline-block;
+        position: absolute;
+        top: 12px;
+        right: 3%;
+    }
+}
+
+@media only screen and (min-width: 241px) and (max-width: 480px) {
+    .slogan {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .slogan div {
+        padding-right: 0;
+    }
+    
+    .service {
+        width: 100%;
+    }
+
+    .service div {
+        padding-right: 0;
+    }
+
+    .work-with-us h2 {
+        float: none;
+        width: 100%;
+        font-size: 18px;
+        color: #706d6a;
+        line-height: 1.6;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .work-with-us a {
+        float: none;
+    }
+    
+    .work-with-us a img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .head {
+        padding: 10px 0 15px 0;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .header-logo {
+        float: none;
+        margin: 0 auto 0 auto;
+        display: block;
+        width: 100px;
+    }
+    
+    .head h1 {
+        display: none;
+    }
+    
+    .head p {
+        display: none;
+    }
+
+    .bottom-content-left {
+        float: none;
+        width: 100%;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+    .review {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .bottom-content-right {
+        float: none;
+        width: 100%;
+    }
+
+    .news-block {
+        overflow: hidden;
+        margin-bottom: 20px;
+        float: left;
+        width: 100%;
+    }
+
+    .footer-block-left {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .footer-block-right {
+        float: none;
+        width: 100%;
+    }
+
+    .footer-copy img {
+        float: none;
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+    
+    .footer-copy p {
+        float: none;
+        color: #848484;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .menu ul li {
+        width: 100%;
+    }
+
+    .menu a#pull  {
+        display: block;
+        font-size: 14px;
+        font-weight: 700;
+        color: #333;
+        text-decoration: none;
+        padding: 10px 3%;
+        width: 94%;
+        position: relative;
+    }
+
+    .menu a#pull:after {
+        content: "";
+        background-image: url(./images/icon-menu.png);
+        background-repeat: no-repeat;
+        width: 12px;
+        height: 13px;   
+        display: inline-block;
+        position: absolute;
+        top: 12px;
+        right: 3%;
+    }
+}
+
+@media only screen and (max-width: 240px) {
+    .content-main {
+        padding: 0 10px;
+    }
+    
+    .slogan {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .slogan div {
+        padding-right: 0;
+    }
+    
+    .service {
+        width: 100%;
+    }
+
+    .service div {
+        padding-right: 0;
+    }
+
+    .work-with-us h2 {
+        float: none;
+        width: 100%;
+        font-size: 15px;
+        color: #706d6a;
+        line-height: 1.5;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .work-with-us a {
+        float: none;
+    }
+    
+    .work-with-us a img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .head {
+        padding: 10px 0 15px 0;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .header-logo {
+        float: none;
+        margin: 0 auto 0 auto;
+        display: block;
+        width: 100px;
+    }
+    
+    .head h1 {
+        display: none;
+    }
+    
+    .head p {
+        display: none;
+    }
+
+    .bottom-content-left {
+        float: none;
+        width: 100%;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+    .review {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .bottom-content-right {
+        float: none;
+        width: 100%;
+    }
+
+    .news-block {
+        overflow: hidden;
+        margin-bottom: 20px;
+        float: left;
+        width: 100%;
+    }
+
+    .footer-block-left {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .footer-block-right {
+        float: none;
+        width: 100%;
+    }
+
+    .footer-copy img {
+        float: none;
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+    
+    .footer-copy p {
+        float: none;
+        color: #848484;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .footer-main {
+        background-color: #4a4744;
+        padding: 30px 10px 30px 10px;
+        font-size: 12px;
+        color: #848484;
+        line-height: 1.5;
+        overflow: hidden;
+    }
+
+    .footer-copy {
+        background-color: #2f2d2b;
+        overflow: hidden;
+        padding: 20px 10px;
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .menu ul li {
+        width: 100%;
+    }
+
+    .menu a#pull  {
+        display: block;
+        font-size: 14px;
+        font-weight: 700;
+        color: #333;
+        text-decoration: none;
+        padding: 10px 3%;
+        width: 94%;
+        position: relative;
+    }
+
+    .menu a#pull:after {
+        content: "";
+        background-image: url(./images/icon-menu.png);
+        background-repeat: no-repeat;
+        width: 12px;
+        height: 13px;   
+        display: inline-block;
+        position: absolute;
+        top: 12px;
+        right: 3%;
+    }
+}
 
